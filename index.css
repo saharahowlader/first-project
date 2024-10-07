@@ -283,7 +283,7 @@ button{
             }
 
             & div{
-                padding: 16px;
+                padding: 16px 0;
                 font-size:20px ;
             }
         }
@@ -324,30 +324,19 @@ button{
                 padding-right: 0rem;
             }
             .details-div{
-                display: flex;
-                align-items: start;
-                gap:20px;
+               
+                gap:16px;
                 margin-top: 40px;
         
                 & div{
                     padding-top: 16px;
-        
-        & h2{
-            font-size: 25px;
-            font-weight: 600;
-        }
-        & p{
-            font-size: 20px;
-            color: #9393c4;
-            padding-top: 20px;
-            max-width: 300px;
-                }
+       
               }
             }
           }
         }
         .company{
-           margin-top: 30px;
+           margin-top: 50px;
         }
 
         .join{
@@ -363,25 +352,22 @@ button{
            
         }
           & h2{
-            font-size: 60px;
+            font-size: 40px;
           }
         
           
             .store-design{
-                display: flex;
-                align-items: center;
-                gap:16px;
-                padding: 16px 28px;
-                background-color: #130f49;
-                border-radius: 20px;
-                width: fit-content;
-                & p{
-                    font-size: 12px;
-                    color: #9393c4;
-                }
+               
+                gap:12px;
+                padding: 12px 24px;
+               
+                border-radius: 14px;
+               
+              
+                
                 & h3{
-                    font-size: 18px;
-                    color: #d9f4ff;
+                    font-size: 16px;
+                    
                 }
         
                 & img{
